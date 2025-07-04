@@ -1,6 +1,5 @@
 import streamlit as st
 
-grok_key = "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"
 from langchain_core.messages import HumanMessage,AIMessage,SystemMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
